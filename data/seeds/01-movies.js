@@ -12,6 +12,20 @@ exports.seed = function (knex) {
           rating: "PG",
           format: "DVD",
         },
+        {
+          owner: "Rebecca Koehler",
+          title: "Cloudy With a Chance of Meatballs",
+          release_year: 2009,
+          rating: "PG",
+          format: "DVD",
+        },
+        {
+          owner: "Rebecca Koehler",
+          title: "Baby Geniuses",
+          release_year: 1999,
+          rating: "PG",
+          format: "DVD",
+        },
       ]);
     });
 };
