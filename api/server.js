@@ -8,7 +8,7 @@ const cors = require("cors");
 
 server.use(helmet());
 server.use(express.json());
-server.use(cor1s());
+server.use(cors());
 
 server.use("/api/movies", moviesRouter);
 
