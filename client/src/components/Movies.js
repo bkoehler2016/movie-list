@@ -1,19 +1,18 @@
 import React from "react";
 import { Table } from "reactstrap";
 const Movie = (props) => {
-  const { id, owner, title, release_year, rating, format } = props.movie;
+  const { owner, title, release_year, rating, format } = props.movie;
 
   return (
     <div>
       <Table striped>
-        <tbody>
-          <td>{id}</td>
+        <thead>
           <td>{owner}</td>
           <td>{title}</td>
           <td>{release_year}</td>
           <td>{rating}</td>
           <td>{format}</td>
-        </tbody>
+        </thead>
       </Table>
     </div>
   );

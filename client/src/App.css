@@ -45,8 +45,10 @@ div .table {
 
 
 
-tbody td {
-  width: 45px;
+td {
+  text-align: center;
+  max-width: 10px;
+  /* background-color: red; */
 }
 
 
