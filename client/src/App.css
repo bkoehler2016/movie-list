@@ -51,6 +51,11 @@ td {
   /* background-color: red; */
 }
 
+th {
+  max-width: 10px;
+}
+
+
 
 
 .card-text {

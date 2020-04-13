@@ -5,7 +5,7 @@ const Movie = (props) => {
 
   return (
     <div>
-      <Table striped>
+      <Table>
         <thead>
           <td>{owner}</td>
           <td>{title}</td>
