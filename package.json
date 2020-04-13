@@ -18,10 +18,11 @@
     "express": "^4.17.1",
     "helmet": "^3.22.0",
     "knex": "^0.20.13",
-    "node-gyp": "^6.1.0",
-    "sqlite3": "^4.1.1"
+    "node-gyp": "^6.1.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.2"
+    "nodemon": "^2.0.2",
+    "sqlite": "^4.0.7",
+    "sqlite3": "^4.1.1"
   }
 }
