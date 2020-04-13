@@ -1,18 +1,20 @@
 import React from "react";
-import { Card, CardText, CardBody, CardSubtitle } from "reactstrap";
-
+import { Table } from "reactstrap";
 const Movie = (props) => {
-  const { owner, title, release_year, rating, format } = props.movie;
+  const { id, owner, title, release_year, rating, format } = props.movie;
 
   return (
     <div>
-      <Card>
-        <CardText>Owner: {owner}</CardText>
-        <CardBody>{title}</CardBody>
-        <CardSubtitle>{release_year}</CardSubtitle>
-        <CardSubtitle>{rating}</CardSubtitle>
-        <CardSubtitle>{format}</CardSubtitle>
-      </Card>
+      <Table striped>
+        <tbody>
+          <td>{id}</td>
+          <td>{owner}</td>
+          <td>{title}</td>
+          <td>{release_year}</td>
+          <td>{rating}</td>
+          <td>{format}</td>
+        </tbody>
+      </Table>
     </div>
   );
 };

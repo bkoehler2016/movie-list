@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+
 }
 
 .App-logo {
@@ -24,18 +25,31 @@
   color: white;
 }
 
-div .card {
+.mainHeader th {
+  background-color: red;
+  width: auto;
+
+
+}
+
+
+
+div .table {
   width: 50%;
   margin-top: 10px;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid #C1C2CE;
-  background-color: #CCC8C0;
+  /* border: 1px solid #C1C2CE;
+  background-color: #CCC8C0; */
 }
 
-.row {
-  color: #160A11;
+
+
+tbody td {
+  width: 45px;
 }
+
+
 
 .card-text {
   font-size: medium;
@@ -50,6 +64,7 @@ div .card {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
