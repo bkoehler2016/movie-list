@@ -2,7 +2,7 @@
 
 module.exports = {
   development: {
-    client: "sqlite3",
+    client: "sqlite",
     connection: {
       filename: "./data/movie.db3",
     },
@@ -16,7 +16,7 @@ module.exports = {
     },
   },
   production: {
-    client: "sqlite3",
+    client: "sqlite",
     useNullAsDefault: true,
     connection: {
       filename: "/data/movie.db3",
