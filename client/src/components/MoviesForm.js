@@ -11,7 +11,10 @@ export default function MoviesForm() {
 
   const handleSubmit = () => {
     axios
-      .post("https://koehler-movie-list.herokuapp.com/api/movies", newMovie)
+      .post(
+        "https://koehler-family-movie-list.herokuapp.com/api/movies",
+        newMovie
+      )
       .then((res) => {
         console.log(res);
       });

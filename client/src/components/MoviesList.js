@@ -9,7 +9,7 @@ export default class MoviesList extends React.Component {
   };
   componentDidMount() {
     axios
-      .get("https://koehler-movie-list.herokuapp.com/api/movies")
+      .get("https://koehler-family-movie-list.herokuapp.com/api/movies")
       .then((res) => {
         console.log(res.data);
         this.setState({ movies: res.data });
